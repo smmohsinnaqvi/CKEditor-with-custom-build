@@ -11,7 +11,7 @@ export default function Document({ setSelected, doc }) {
           onClick={() => {
             setSelected(doc);
           }}
-          sx={{ cursor: "pointer", mt: 2, mb: 2 }}
+          sx={{ cursor: "pointer", mt: 1, mb: 2 }}
         >
           {doc.title}
         </Typography>
